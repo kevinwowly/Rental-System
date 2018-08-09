@@ -1,0 +1,24 @@
+<!--pages/login.wxml-->
+ <view class="page-section">
+        <view class="page-section-title">用户名</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd">
+              <input class="weui-input" name="input" placeholder="请输入用户名" />
+            </view>
+          </view>
+        </view>
+      </view>
+
+       <view class="page-section">
+        <view class="page-section-title">密码</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd">
+              <input class="weui-input" name="input" placeholder="请输入密码" />
+            </view>
+          </view>
+        </view>
+      </view>
+      <button class="mini-btn" type="primary" size="mini">登陆</button>
+
